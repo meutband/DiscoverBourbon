@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+{% if bourbon_list %}
+<br>
+<div style="height: 550px; overflow:auto;">
+    <h2>Bourbon List</h2>
+    {% for bourbon in bourbon_list %}
+    <div class="col-xs-6 col-lg-4", >
+        <br><h4><u><a href="{% url 'bourbonsite:bourbon_detail' bourbon.BourbonID %}" style="color:#ffffff">
+            {{ bourbon.Bourbon }}
+        </a></u></h4>
+            <h5>{{ bourbon.review_set.count }} reviews</h5>
+            <h5>{{ bourbon.average_rating | floatformat }} average rating</h5>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+    <br><h3>No bourbons are available.</h3>
+{% endif %}
+{% endblock %}

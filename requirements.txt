@@ -1,0 +1,7 @@
+Django==1.11.6
+django-bootstrap3==9.1.0
+django-registration-redux==2.0
+djangorestframework==3.7.1
+numpy==1.15.0
+pandas==0.20.3
+gunicorn==19.9.0

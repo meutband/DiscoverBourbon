@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+{% if latest_review_list %}
+<br>
+<div style="height: 550px; overflow:auto;">
+    <h2>Reviews by {{ User_Name }}</h2>
+    <br><h5>Please press the links of the bourbons to see more info of the review.</h5>
+    {% for review in latest_review_list %}
+    <div class="col-xs-6 col-lg-4">
+        <br><h4><u><a href="{% url 'bourbonsite:review_detail' review.RatingID %}" style="color:#ffffff">
+            {{ review.Bourbon.Bourbon }}
+        </a></u></h4>
+            <h5>Rated {{ review.Rating }} of 5 </h5>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+    <br><h3>No reviews yet by {{ User_Name }}.</h3>
+{% endif %}
+{% endblock %}

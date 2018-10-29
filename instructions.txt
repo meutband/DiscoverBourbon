@@ -1,0 +1,14 @@
+to reset bourbon database:
+
+-  delete migrations/0001.... (not directory)
+-  delete db.sqlite3
+
+-  python manage.py makemigrations
+-  python manage.py migrate
+-  python loadbourbons.py
+
+to delete reviews from table:
+
+-  sqlite3 db.sqlite3
+-  delete from bourbonsite_review;
+-  vacuum;

@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+<br>
+<div style="background-color: #666666;color: #ffffff;font-size: 16px; height: 550px; overflow:auto;">
+    <h2>WELCOME TO DISCOVER BOURBON!</h2>
+    <p> <br>Thanks for visiting our website. This website has 4 purposes: </p>
+    <ol>
+        <br><li>The most recent ratings and reviews of bourbons that people have tried.</li>
+        <li>To help you discover new bourbons you have yet to try. To help, there will be a detailed list of bourbons
+            to assist you and there will be similar bourbons listed on each of the individual bourbon pages</li>
+        <li>Details of the selected bourbons.</li>
+        <li>The recommendation of bourbons based on what you have tried (and rated).</li>
+    </ol>
+    <p> Here are a few facts about bourbon and the requirements to be labeled as bourbon.</p>
+    <ol>
+        <br><li>For a whiskey to be labeled as a bourbon, it must first be made in America.</li>
+        <li>Bourbon must also be created from a mash (mixture of fermentable grain) that is at least 51 percent corn.
+            The other 49 percent is usually a mixture of barley, rye, or wheat.</li>
+        <li>Another requirement is that bourbon must go into the barrel at no more than 125 proof and it cannot be
+            bottled at anything less than 80 proof</li>
+    </ol>
+    <p>For a more detailed list of facts and the history of bourbon, please visit the
+        <u><a href="{% url 'facts' %}" style="color:#ffffff">Bourbon Facts</a></u> page.
+    <br><br>
+    <p>The price ranges for this site are listed below. (for 750mL bottle) </p>
+    <ol>
+        <br><li>$20 and under</li>
+        <li>$21 - $30</li>
+        <li>$31 - $60</li>
+        <li>$61 - $100</li>
+        <li>$101 and over</li>
+    </ol>
+    <br>
+    In order to review the bourbons, as well as receive personalized recommendations, please register for an
+    account <u><a href="/accounts/register" style="color:#ffffff">here</a></u>.
+    To see your previous reviews and current recommendations, please
+    <u><a href="{% url 'auth:login' %}" style="color:#ffffff">login</a></u> to your account.
+    <br><br>
+    Thank you for visiting Discover Bourbon, please feel free to
+    <u><a href="{% url 'contact' %}" style="color:#ffffff">contact us</a></u> with any questions or concerns.
+    </p>
+</div>
+{% endblock %}

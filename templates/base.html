@@ -1,0 +1,47 @@
+{% load bootstrap3 %}
+{% load static %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+{% block bootstrap3_content %}
+
+<html>
+    <head>
+        <title>Discover Bourbon</title>
+        <link rel="stylesheet" href="{% static 'css/home.css'%}">
+    </head>
+	<body>
+		<div class="wrapper">
+            <header>
+                <h1>Discover Bourbon</h1>
+				<nav>
+                    <div>
+                        <ul>
+                            <li><a href="{% url 'home' %}">Home</a></li>
+                            <li><a href="{% url 'facts' %}">Bourbon Facts</a></li>
+                            <li><a href="{% url 'bourbonsite:bourbon_list' %}">Bourbon List</a></li>
+                            <li><a href="{% url 'bourbonsite:review_list' %}">Latest Reviews</a></li>
+                            <li><a href="{% url 'contact' %}">Contact Us</a></li>
+
+                            {% if user.is_authenticated %}
+                            <li><a href="{% url 'bourbonsite:user_review_list' user.username %}">{{ user.username }} Reviews</a></li>
+                            <li><a href="{% url 'auth:logout' %}">Logout</a></li>
+                            {% else %}
+                            <li><a href="{% url 'auth:login' %}">Login</a></li>
+                            <li><a href="/accounts/register">Register</a></li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </nav>
+			</header>
+
+            {% block content %}(no content){% endblock %}
+            <footer style="background-color: #808080;">
+                © Discover Bourbon
+            </footer>
+        </div>
+        {% endblock %}
+
+    </body>
+
+
+</html>

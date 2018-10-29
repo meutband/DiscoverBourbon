@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+<br>
+<h2><u><a href="{% url 'bourbonsite:bourbon_detail' review.Bourbon.BourbonID %}" style="color:#ffffff">
+    {{ review.Bourbon.Bourbon }}
+</a></u></h2>
+<br><h4>Rated {{ review.Rating }} of 5 by <u><a href="{% url 'bourbonsite:user_review_list' review.User_Name %}" style="color:#ffffff">
+    {{ review.User_Name }}
+</a></u></h4>
+<br><p>{{ review.Pub_Date }}</p>
+<br><p>{{ review.Comment }}</p><br>
+{% endblock %}
