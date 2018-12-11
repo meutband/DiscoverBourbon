@@ -2,205 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27150535-a130-47db-9227-ece58a16babc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/discoverbourbon.iml" afterPath="$PROJECT_DIR$/.idea/discoverbourbon.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bourbonsite/admin.py" afterPath="$PROJECT_DIR$/bourbonsite/admin.py" />
-      <change beforePath="$PROJECT_DIR$/bourbonsite/migrations/0001_initial.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bourbonsite/models.py" afterPath="$PROJECT_DIR$/bourbonsite/models.py" />
-      <change beforePath="$PROJECT_DIR$/bourbonsite/templates/bourbonsite/bourbon_detail.html" afterPath="$PROJECT_DIR$/bourbonsite/templates/bourbonsite/bourbon_detail.html" />
-      <change beforePath="$PROJECT_DIR$/bourbonsite/templates/bourbonsite/bourbon_list.html" afterPath="$PROJECT_DIR$/bourbonsite/templates/bourbonsite/bourbon_list.html" />
-      <change beforePath="$PROJECT_DIR$/bourbonsite/templates/bourbonsite/review_list.html" afterPath="$PROJECT_DIR$/bourbonsite/templates/bourbonsite/review_list.html" />
-      <change beforePath="$PROJECT_DIR$/bourbonsite/urls.py" afterPath="$PROJECT_DIR$/bourbonsite/urls.py" />
-      <change beforePath="$PROJECT_DIR$/bourbonsite/views.py" afterPath="$PROJECT_DIR$/bourbonsite/views.py" />
-      <change beforePath="$PROJECT_DIR$/data/bourbonslist.csv" afterPath="$PROJECT_DIR$/data/bourbonslist.csv" />
-      <change beforePath="$PROJECT_DIR$/data/testreviews.csv" afterPath="$PROJECT_DIR$/data/testreviews.csv" />
-      <change beforePath="$PROJECT_DIR$/data/testusers.csv" afterPath="$PROJECT_DIR$/data/testusers.csv" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/instructions.txt" afterPath="$PROJECT_DIR$/instructions.txt" />
-      <change beforePath="$PROJECT_DIR$/load_test_users.py" afterPath="$PROJECT_DIR$/loadtestusers.py" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/css/base.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/css/changelists.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/css/dashboard.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/css/fonts.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/css/forms.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/css/login.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/css/rtl.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/css/widgets.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/fonts/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/fonts/README.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/fonts/Roboto-Bold-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/fonts/Roboto-Light-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/fonts/Roboto-Regular-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/README.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/calendar-icons.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/gis/move_vertex_off.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/gis/move_vertex_on.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/icon-addlink.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/icon-alert.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/icon-calendar.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/icon-changelink.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/icon-clock.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/icon-deletelink.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/icon-no.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/icon-unknown-alt.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/icon-unknown.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/icon-yes.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/inline-delete.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/search.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/selector-icons.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/sorting-icons.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/tooltag-add.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/img/tooltag-arrowright.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/SelectBox.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/SelectFilter2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/actions.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/admin/DateTimeShortcuts.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/admin/RelatedObjectLookups.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/calendar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/cancel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/change_form.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/collapse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/collapse.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/core.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/inlines.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/inlines.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/jquery.init.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/popup_response.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/prepopulate.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/prepopulate.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/prepopulate_init.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/timeparse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/urlify.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/vendor/jquery/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/vendor/jquery/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/vendor/xregexp/xregexp.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/admin/js/vendor/xregexp/xregexp.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/css/home.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/background.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/1792full.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/1792port.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/1792rye.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/1792single.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/1792small.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/1792sweet.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/ancient10star.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/ancient80.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/ancient90.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/angelscask.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/angelsport.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bakers7.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/balconesblue.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bankersclub.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/basilhaydens.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/beerbarrel.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/belle.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bellecognate.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bellemadeira.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bellesherry.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bellesingle.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/berkshire.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/berkshiresmoke.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bibtucker.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bigass.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bigbottom.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bigbottom111.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bigbottomcabernet.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bigbottomport.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bigbottomzinfandel.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bighouse.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/birddog.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/birddog10.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/birddogsmall.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/blacksaddle.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bladebow.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bladebow22.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/blantonbarrel.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/blantongold.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/blantonsingle.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/blantonspecial.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bookers.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bowman.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/breakenter.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/breckenridge.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/breckenridgesingle.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/brokenbell.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/buck.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/buffalo.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bulleit.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/bulleit10.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/burnside.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/burnsidegoose.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/burnsideoregon.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/deluxe.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/johnbowman.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/redemption.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/redemption10rye.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/redemption9.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/bottles/redemptionrye.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/1792.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/1792full.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/1792port.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/1792rye.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/1792single.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/1792small.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/1792sweet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/ancient10star.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/ancient80.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/ancient90.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/angelscask.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/angelsport.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bakers7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/balconesblue.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/balconesbluecorn.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bankersclub.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/basilhaydens.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/beerbarrel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/belle.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bellecognate.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bellemadeira.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bellesherry.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bellesingle.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/berkshire.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/berkshiresmoke.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bibtucker.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bigbottom.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bigbottomcabernetl.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bigbottomzinfandel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bigbotton111.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bigbottonport.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bighouse.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/blantonsbarrel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/blantonsgold.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/blantonssingle.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/blantonsspecial.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bookers.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bowman.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/breckenridge.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/breckenridgesingle.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/buffalo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bulleit.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/bulleit10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/burnside.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/burnsidegoose.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/burnsideoregron.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/deluxe.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/johnbowman.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/redemption.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/redemption10rye.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/redemption9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/redemption9barrel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mainapp/static/images/pie_charts/redemptionrye.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pie_charts.py" afterPath="$PROJECT_DIR$/piecharts.py" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" afterPath="$PROJECT_DIR$/templates/registration/login.html" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/registration_form.html" afterPath="$PROJECT_DIR$/templates/registration/registration_form.html" />
-      <change beforePath="$PROJECT_DIR$/test_review_database.py" afterPath="$PROJECT_DIR$/loadtestreviews.py" />
-      <change beforePath="$PROJECT_DIR$/update_bourbon_database.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -211,11 +13,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="instructions.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="instructions.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/instructions.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -278,6 +103,7 @@
         <option value="$PROJECT_DIR$/instructions.txt" />
         <option value="$PROJECT_DIR$/templates/registration/registration_form.html" />
         <option value="$PROJECT_DIR$/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -466,7 +292,7 @@
         <state relative-caret-position="450">
           <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -555,16 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -622,14 +438,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -756,7 +564,7 @@
         <state relative-caret-position="228">
           <caret line="85" column="98" lean-forward="false" selection-start-line="85" selection-start-column="98" selection-end-line="85" selection-end-column="98" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -766,7 +574,7 @@
         <state relative-caret-position="705">
           <caret line="47" column="4" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -776,7 +584,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -802,7 +610,7 @@
         <state relative-caret-position="45">
           <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -820,16 +628,16 @@
         <state relative-caret-position="68">
           <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="27" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#u#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#703#709#0" expanded="true" />
-            <element signature="e#709#715#0" expanded="true" />
-            <element signature="e#715#721#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#1256#1262#0" expanded="true" />
-            <element signature="e#1262#1268#0" expanded="true" />
-            <element signature="e#1268#1274#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#u#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="e#703#709#0" expanded="false" />
+            <element signature="e#709#715#0" expanded="false" />
+            <element signature="e#715#721#0" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="e#1256#1262#0" expanded="false" />
+            <element signature="e#1262#1268#0" expanded="false" />
+            <element signature="e#1268#1274#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -872,6 +680,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>
