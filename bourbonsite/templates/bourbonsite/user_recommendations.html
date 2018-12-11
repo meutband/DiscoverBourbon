@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+{% if latest_review_list %}
+<br>
+<div style="overflow:auto;">
+    <h2>Your Latest Reviews</h2>
+    {% for review in latest_review_list %}
+    <div class="col-xs-6 col-lg-4">
+        <br><h4><u><a href="{% url 'bourbonsite:review_detail' review.RatingID %}" style="color:#ffffff">
+            {{ review.Bourbon.Bourbon }}
+        </a></u></h4>
+            <h5>Rated {{ review.Rating }} of 5 </h5>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+        <br><h4>You have not reviewed any bourbons yet.</h4>
+{% endif %}
+<br>
+<div style="overflow:auto;color:#ffffff;font-size:16px">
+    <h2>Your Recommendations</h2>
+    <br><p>&nbsp;&nbsp;&nbsp;The recommendations are based on similarities between your reviews and with other users.</p>
+    {% if similarreviews %}
+        <ul>
+            {% for review in reviews %}
+                <br><li><a href="{% url 'bourbonsite:bourbon_detail' review.BourbonID %}" style="color:#ffffff">{{ review.Bourbon }}</a>
+                    <br>The average rating is {{ review.AvgRating }}.
+                    <br>You would rate this bourbon as {{ review.PredRating }}.</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <br><p>&nbsp;&nbsp;&nbsp;There are not enough reviews. Please check back later.</p>
+    {% endif %}
+</div>
+
+{% endblock %}

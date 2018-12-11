@@ -1,11 +1,18 @@
 from django.contrib import admin
-from .models import Bourbon, Cluster1
+from .models import Bourbon, Review
 
 
-class Cluster1Admin(admin.ModelAdmin):
-    model = Cluster1
-    list_display = ['name', 'get_members']
+class ReviewAdmin(admin.ModelAdmin):
+    model = Review
+    list_display = ('RatingID', 'Pub_Date', 'User_Name', 'Rating')
+    list_filter = ['Pub_Date', 'User_Name']
 
 
-admin.site.register(Bourbon)
-admin.site.register(Cluster1, Cluster1Admin)
+class BourbonAdmin(admin.ModelAdmin):
+    model = Bourbon
+    list_display = ('BourbonID', 'Bourbon', 'Location')
+    list_filter = ['Location']
+
+
+admin.site.register(Bourbon, BourbonAdmin)
+admin.site.register(Review, ReviewAdmin)

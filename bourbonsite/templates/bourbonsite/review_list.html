@@ -14,7 +14,7 @@
         <br><h4><u><a href="{% url 'bourbonsite:review_detail' review.RatingID %}" style="color:#ffffff">
             {{ review.Bourbon.Bourbon }}
         </a></u></h4>
-            <h5>Rated {{ review.Rating }} of 5 by <u><a href="{% url 'bourbons:user_review_list' review.User_Name %}" style="color:#ffffff">
+            <h5>Rated {{ review.Rating }} of 5 by <u><a href="{% url 'bourbonsite:user_review_list' review.User_Name %}" style="color:#ffffff">
                 {{ review.User_Name }}
             </a></u></h5>
     </div>

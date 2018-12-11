@@ -47,9 +47,15 @@ class Review(models.Model):
     Rating = models.IntegerField(choices=RATING_CHOICES)
 
 
-class Cluster1(models.Model):
-    name = models.CharField(max_length=100)
-    users = models.ManyToManyField(User)
+class SimilarBourbons(models.Model):
 
-    def get_members(self):
-        return "\n".join([u.username for u in self.users.all()])
+    BourbonID = models.CharField(max_length=200)
+    Bourbon = models.CharField(max_length=200)
+
+
+class SimilarReviews(models.Model):
+
+    BourbonID = models.CharField(max_length=200)
+    Bourbon = models.CharField(max_length=200)
+    AvgRating = models.DecimalField(null=True, blank=True, max_digits=200, decimal_places=2)
+    PredRating = models.DecimalField(null=True, blank=True, max_digits=200, decimal_places=2)

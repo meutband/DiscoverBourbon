@@ -5,7 +5,17 @@ to reset bourbon database:
 
 -  python manage.py makemigrations
 -  python manage.py migrate
+-  python manage.py createsuperuser
 -  python loadbourbons.py
+-  python loadtestreviews.py    *for testing only
+-  python loadtestusers.py      *for testing only
+-  python manage.py runserver
+
+
+to create pie charts
+
+- python piecharts
+
 
 to delete reviews from table:
 

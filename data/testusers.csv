@@ -1,8 +1,8 @@
-UserID;User_Name
-0;jmorgan
-1;mevans
-2;aevans
-3;brichardson
-4;kparkerson
-5;jrichardson
-6;lmorgan
+UserID;User_Name;Password
+0;jmorgan;bandgeek
+1;mevans;bandgeek
+2;aevans;bandgeek
+3;brichardson;bandgeek
+4;kparkerson;bandgeek
+5;jrichardson;bandgeek
+6;lmorgan;bandgeek

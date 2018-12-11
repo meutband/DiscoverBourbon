@@ -23,7 +23,7 @@
                             <li><a href="{% url 'contact' %}">Contact Us</a></li>
 
                             {% if user.is_authenticated %}
-                            <li><a href="{% url 'bourbonsite:user_review_list' user.username %}">{{ user.username }} Reviews</a></li>
+                            <li><a href="{% url 'bourbonsite:user_recommendations' %}">Recommendations</a></li>
                             <li><a href="{% url 'auth:logout' %}">Logout</a></li>
                             {% else %}
                             <li><a href="{% url 'auth:login' %}">Login</a></li>
